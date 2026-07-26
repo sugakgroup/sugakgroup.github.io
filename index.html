@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kensuke Suga の個人ホームページです。">
+  <title>Kensuke Suga | Personal Homepage</title>
+
+  <style>
+    :root {
+      --background: #f6f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --max-width: 920px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .site-name {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 0.95rem;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 24px;
+    }
+
+    .hero {
+      padding: 48px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 14px 40px rgba(15, 23, 42, 0.06);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.3rem, 7vw, 4.8rem);
+      line-height: 1.1;
+    }
+
+    .lead {
+      max-width: 680px;
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .buttons {
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .button.primary {
+      color: #ffffff;
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .button:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    section {
+      margin-top: 64px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 1.7rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    footer {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 720px) {
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main {
+        padding-top: 40px;
+      }
+
+      .hero {
+        padding: 32px 24px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="site-name" href="#">Kensuke Suga</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">Personal Homepage</p>
+      <h1>Hello, world.</h1>
+      <p class="lead">
+        これは GitHub Pages の公開テスト用ホームページです。
+        研究内容、業績、プロフィールなどをここに掲載できます。
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="#research">研究内容を見る</a>
+        <a class="button" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        ここに所属、役職、専門分野、略歴などを記載します。
+        現在は公開テスト用の仮テキストです。
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Research Topic 1</h3>
+          <p>研究テーマの概要を短く記載します。</p>
+        </article>
+
+        <article class="card">
+          <h3>Publications</h3>
+          <p>主要論文や業績一覧へのリンクを掲載します。</p>
+        </article>
+
+        <article class="card">
+          <h3>Projects</h3>
+          <p>現在進行中のプロジェクトを紹介します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:your-email@example.com">your-email@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Kensuke Suga
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
