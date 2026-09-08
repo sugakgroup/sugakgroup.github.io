@@ -1,0 +1,51 @@
+[
+  {
+    "start": "2026-04", "end": "2029-03",
+    "organization": "日本学術振興会", "program": "科研費 若手研究",
+    "title": "内部空間設計で拓く細孔活用3D造形基盤の確立",
+    "grantNumber": "26K17907",
+    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K17907/"
+  },
+  {
+    "start": "2026-04", "end": "2028-03",
+    "organization": "日本学術振興会", "program": "科研費 学術変革領域研究（A）公募研究",
+    "title": "物性差分で複雑性を俯瞰する高度π分子探索基盤の構築",
+    "grantNumber": "26H01357",
+    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PUBLICLY-26H01357/"
+  },
+  {
+    "start": "2025-07", "end": "2027-03",
+    "organization": "日本学術振興会", "program": "科研費 研究活動スタート支援",
+    "title": "π共役特化型構造生成による光駆動分子の創出と理解",
+    "grantNumber": "25K23592",
+    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K23592/"
+  },
+  {
+    "start": "2025-04", "end": "2026-02",
+    "organization": "大阪大学", "program": "「はばたく次世代」研究者育成３職協働プログラム 異分野融合研究プロジェクト",
+    "title": "探索AI×量子化学×有機化学の共創による次世代分子設計の確立",
+    "grantNumber": "",
+    "url": "https://researchmap.jp/sugakensuke/research_projects/52116981"
+  },
+  {
+    "start": "2024-08", "end": "2025-03",
+    "organization": "京都大学", "program": "銀楓ファンド",
+    "title": "流動が力学物性を支配するナノ複合物質の3D造形",
+    "grantNumber": "",
+    "url": "https://researchmap.jp/sugakensuke/research_projects/47876886"
+  },
+  {
+    "start": "2023-09", "end": "2024-03",
+    "organization": "日本学術振興会", "program": "若手研究者海外挑戦プログラム",
+    "title": "精密に3D造形されたソフトマテリアルにおける構造と応力分布の関係の解明",
+    "grantNumber": "",
+    "url": "https://researchmap.jp/sugakensuke/research_projects/53092739"
+  },
+  {
+    "start": "2022-04", "end": "2025-03",
+    "organization": "日本学術振興会", "program": "科研費 特別研究員奨励費",
+    "title": "液晶分子配列を読み解く機械学習による相転移挙動の予測と光機能性液晶への展開",
+    "grantNumber": "22KJ1964",
+    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22KJ1964/"
+  }
+]

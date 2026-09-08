@@ -1,0 +1,13 @@
+{
+  "students": [
+    { "name": "高橋 隼人", "nameEn": "Hayato Takahashi", "grade": "M2", "themes": ["chemical-space"] },
+    { "name": "藤本 真夕子", "nameEn": "Mayuko Fujimoto", "grade": "M1", "themes": ["polymer-structure"] },
+    { "name": "天野 怜", "nameEn": "Rei Amano", "grade": "B4", "themes": ["organic-synthesis"] }
+  ],
+  "projectStudents": [
+    { "name": "中国 海斗", "nameEn": "Kaito Nakakuni", "grade": "M1", "themes": ["chemical-space"], "note": "主所属：齊藤グループ。カデット研究として、岸 亮平先生・須賀と共同で研究に取り組んでいます。", "noteEn": "Primary affiliation: Saito Group. Participates in a cadet research project with Ryohei Kishi and Kensuke Suga." }
+  ],
+  "alumni": [
+    { "name": "Allysakyle Marie MANAY", "grade": "B4", "themes": ["polymer-structure"], "visiting": true, "note": "ISP（International Summer Program）で研究に参加。", "noteEn": "Visiting student through the International Summer Program (ISP)." }
+  ]
+}

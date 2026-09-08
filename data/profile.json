@@ -1,0 +1,36 @@
+{
+  "nameJa": "須賀 健介",
+  "nameEn": "Kensuke Suga",
+  "orcid": "0000-0003-3893-2172",
+  "affiliationJa": "大阪大学 大学院理学研究科",
+  "positionJa": "助教",
+  "email": "sugak24@chem.sci.osaka-u.ac.jp",
+  "postalCode": "560-0043",
+  "addressJa": "大阪府豊中市待兼山町1-1",
+  "roomJa": "理学部 G-415",
+  "addressEn": "1-1 Machikaneyama, Toyonaka, Osaka 560-0043, Japan",
+  "roomEn": "Room G-415, School of Science",
+  "researchmap": "https://researchmap.jp/sugakensuke",
+  "photo": "/images/kensuke-suga.jpg",
+  "photoSource": "https://researchmap.jp/sugakensuke/avatar.JPG",
+  "degree": "博士（理学）／京都大学",
+  "biography": "京都大学理学部を卒業後、同大学院理学研究科で修士・博士課程を修了。博士課程在学中は日本学術振興会特別研究員（DC1）として研究に取り組み、ニューサウスウェールズ大学へ研究留学。2025年4月より大阪大学大学院理学研究科 助教。",
+  "career": [
+    { "period": "2025.04–", "text": "大阪大学 大学院理学研究科 化学専攻 助教" },
+    { "period": "2025.03", "text": "京都大学 大学院理学研究科 博士後期課程修了、博士（理学）" },
+    { "period": "2023.09–2024.03", "text": "ニューサウスウェールズ大学 School of Chemical Engineering 研究留学" },
+    { "period": "2022.04–2025.03", "text": "日本学術振興会 特別研究員（DC1）" },
+    { "period": "2022.03", "text": "京都大学 大学院理学研究科 修士課程修了" },
+    { "period": "2020.03", "text": "京都大学 理学部卒業" }
+  ],
+  "awards": [
+    { "date": "2024-04", "name": "第104春季年会 学生講演賞", "organization": "日本化学会", "url": "https://researchmap.jp/sugakensuke/awards/46244928" },
+    { "date": "2022-10", "name": "2022年光化学討論会 Journal of Materials Chemistry A Presentation Prize", "organization": "光化学協会", "url": "https://researchmap.jp/sugakensuke/awards/46268917" }
+  ],
+  "verifiedOn": "2026-09-07",
+  "sources": [
+    "https://orcid.org/0000-0003-3893-2172",
+    "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202401013861922456",
+    "https://researchmap.jp/sugakensuke"
+  ]
+}

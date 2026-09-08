@@ -1,0 +1,259 @@
+.people-overview,
+.people-achievements {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+}
+
+.people-overview > *,
+.people-achievements > *,
+.people-leader-heading > * {
+  min-width: 0;
+}
+
+.people-leader-heading {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.people-portrait {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.group-people .ds-kicker {
+  font-size: .875rem;
+  margin-bottom: .75rem;
+}
+
+.people-leader-heading h3 {
+  margin-bottom: .65rem;
+}
+
+.people-leader-heading p,
+.people-biography {
+  font-size: 1rem;
+  color: var(--ds-muted);
+}
+
+.people-biography {
+  margin: 1.5rem 0 1rem;
+}
+
+.people-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: .875rem;
+  overflow-wrap: anywhere;
+}
+
+.group-people a:hover {
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
+
+.people-students,
+.people-support {
+  border-left: 1px solid var(--ds-line);
+  padding-left: 2.5rem;
+}
+
+.people-member-list,
+.people-member-themes,
+.people-awards > ul,
+.people-support-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.people-member-list > li {
+  padding: 1rem 0;
+  border-top: 1px solid var(--ds-line);
+}
+
+.people-member-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .5rem 1rem;
+}
+
+.people-member-heading h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.people-member-heading > span,
+.people-member-themes,
+.people-member-note {
+  color: var(--ds-muted);
+  font-size: .875rem;
+}
+
+.people-member-themes {
+  margin-top: .5rem;
+}
+
+.people-member-themes a > span {
+  margin-right: .5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.people-member-note {
+  margin: .5rem 0 0;
+}
+
+.people-member-group {
+  margin-top: 1.5rem;
+}
+
+.people-achievements {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--ds-line);
+}
+
+.people-awards li,
+.people-support-list > li {
+  margin-bottom: 1.5rem;
+}
+
+.people-period,
+.people-award-organization,
+.people-grant-number {
+  display: block;
+  font-size: .875rem;
+  color: var(--ds-muted);
+}
+
+.people-period {
+  font-variant-numeric: tabular-nums;
+  margin-bottom: .35rem;
+}
+
+.people-award-organization,
+.people-grant-number {
+  margin-top: .35rem;
+}
+
+.people-support-program {
+  font-size: .875rem;
+  color: var(--ds-muted);
+  margin-bottom: .4rem;
+}
+
+.people-details {
+  border-top: 1px solid var(--ds-line);
+}
+
+.people-details summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .8rem 0;
+  cursor: pointer;
+  font-size: .875rem;
+  list-style: none;
+}
+
+.people-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.people-details[open] summary > span {
+  transform: rotate(45deg);
+}
+
+.people-career {
+  margin: .5rem 0 0;
+  font-size: .875rem;
+}
+
+.people-career > div {
+  margin-bottom: 1rem;
+}
+
+.people-career dt {
+  color: var(--ds-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.people-career dd {
+  margin: .2rem 0 0;
+}
+
+.profile-introduction {
+  max-width: 46rem;
+  padding: 1rem 0 2rem;
+}
+
+.profile-introduction h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+.profile-career-section {
+  border-top: 1px solid var(--ds-line);
+  padding-top: 2rem;
+}
+
+.profile-page .people-career {
+  font-size: 1rem;
+}
+
+.profile-page .people-career > div {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  gap: 1.5rem;
+}
+
+.profile-page .people-career dd {
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .people-overview,
+  .people-achievements {
+    gap: 2rem;
+  }
+  .people-students,
+  .people-support {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .profile-page .people-career > div {
+    grid-template-columns: 1fr;
+    gap: .25rem;
+  }
+  .people-overview,
+  .people-achievements {
+    grid-template-columns: 1fr;
+  }
+  .people-students,
+  .people-support {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--ds-line);
+    padding-top: 1.5rem;
+  }
+  .people-leader-heading {
+    grid-template-columns: 90px 1fr;
+    gap: 1.25rem;
+  }
+  .people-portrait {
+    width: 90px;
+    height: 120px;
+  }
+}

@@ -1,0 +1,122 @@
+/* The selected group site: quiet reading beneath the moving cover. */
+.ds-current{--group-header-height:100px}
+.ds-current .ds-header{position:sticky;top:0;z-index:40}
+.ds-current .ds-frame{display:contents}
+.ds.ds-current [id],.ds.ds-current #main,.ds.ds-current #top{scroll-margin-top:calc(var(--group-header-height) + 20px)}
+.group-menu-button{display:none}
+@media(max-width:800px){
+  .ds-current{--group-header-height:94px}
+  .ds.ds-current .ds-header{display:flex;flex-wrap:wrap;align-items:center;gap:0 16px;padding:14px 20px}
+  .ds-current .ds-header .ds-brand{display:block;font-size:18px}
+  .ds-current .ds-header .ds-brand small{display:block;margin:3px 0 0;font-size:.65rem}
+  .ds-current .group-menu-button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;flex-shrink:0;margin-left:auto;border:1px solid var(--ds-line);background:transparent;color:var(--ds-ink);cursor:pointer}
+  .group-menu-button span{display:block;width:19px;height:1px;background:currentColor}
+  .group-menu-button[aria-expanded=true] span:first-child{transform:translateY(6px) rotate(45deg)}
+  .group-menu-button[aria-expanded=true] span:nth-child(2){opacity:0}
+  .group-menu-button[aria-expanded=true] span:last-child{transform:translateY(-6px) rotate(-45deg)}
+  .ds-current .group-menu-button:focus-visible{outline:2px solid var(--ds-accent);outline-offset:4px}
+  .ds-current .ds-header nav{display:none;width:100%;max-width:none}
+  .ds-current .ds-header[data-menu-open=true] nav{position:absolute;top:100%;left:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 20px;margin:0;padding:12px 20px 16px;border-top:1px solid var(--ds-line);border-bottom:1px solid var(--ds-line);background:#0a0c0c;max-height:calc(100dvh - var(--group-header-height));overflow-y:auto}
+  .ds-current .ds-header nav a{display:block;padding:9px 0;min-height:44px}
+  .ds-current .ds-header nav .language-switch{padding:8px 10px;justify-self:start}
+}
+.ds-current .ds-header nav{font-size:.875rem;flex-wrap:wrap}
+.ds-current .ds-header nav a[aria-current="page"]{border-bottom:1px solid var(--ds-accent)}
+.ds-current .ds-brand small{font-size:.75rem}
+.ds-current .ds-skip{background:#e4e1db;color:#141716}
+.ds-current .folio-hero{padding-top:0;min-height:0}
+.ds-current .folio-stage{position:relative;isolation:isolate;min-height:540px;margin:0 -4vw;padding:36px 4vw 90px}
+.ds-current .folio-entity{inset:0}
+.voyage-silver .voyage-fallback{background:#030912}
+.voyage-poster img{display:block;width:100%;height:100%;object-fit:fill}
+.ds-current .folio-intro h2{font-size:clamp(1.4rem,2.05vw,1.8rem);text-wrap:balance}
+.ds-current .folio-intro p{font-size:1rem;color:#bdc0b9;line-height:1.95}
+.ds-current .folio-cover{grid-template-columns:120px minmax(0,1fr) 150px;gap:28px;margin-top:0;background:#030912}
+.ds-current .folio-mast>span{font-size:1rem}
+.ds-current .folio-mast>p{font-size:.75rem}
+.ds-current .folio-margin{font-size:.75rem}
+.research-overview .ds-section-head{gap:20px;flex-wrap:wrap}
+.research-overview .ds-section-head>p{font-size:.75rem}
+.research-all{margin-left:auto;font-size:.875rem;border-bottom:1px solid var(--ds-line);padding:8px 0;display:flex;gap:20px}
+.research-overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.research-overview-item{border-top:1px solid var(--ds-accent);padding-top:24px;display:flex;flex-direction:column;min-width:0}
+.research-topic-label{display:flex;align-items:center;gap:18px;color:var(--ds-accent);margin-bottom:22px}
+.research-topic-label>span{font:2.4rem/1.2 Georgia,serif}
+.research-topic-label>small{font-size:.75rem;letter-spacing:.1em}
+.research-overview-item h3{font:500 clamp(1.25rem,1.8vw,1.5rem)/1.7 "Yu Mincho",serif;text-wrap:balance;margin:0 0 20px}
+.research-overview-item h3 a:hover{text-decoration:underline;text-underline-offset:6px}
+.research-overview-item .research-topic-copy{font-size:1rem;color:var(--ds-ink);margin:0 0 14px;min-height:3.9em}
+.research-overview-item .research-topic-summary{font-size:1rem;color:var(--ds-muted);margin:0 0 26px}
+.research-topic-link{margin-top:auto;align-self:start}
+.research-page-main{max-width:1280px;margin:auto;padding:0 4vw}
+.research-breadcrumb{display:flex;gap:16px;color:var(--ds-muted);font-size:.875rem;padding:26px 0}
+.research-breadcrumb a:hover{color:var(--ds-ink)}
+.research-introduction{padding:40px 0 66px;border-bottom:1px solid var(--ds-line)}
+.research-eyebrow{font-size:.75rem;letter-spacing:.1em;color:var(--ds-accent)}
+.research-introduction h1{font:400 clamp(1.9rem,4vw,3.3rem)/1.6 "Yu Mincho",serif;letter-spacing:.035em;margin:25px 0 32px}
+.research-introduction-body{max-width:760px;margin-left:auto}
+.research-introduction-body p{font-size:1rem;color:var(--ds-muted);margin-bottom:18px}
+.research-introduction-body p:last-child{margin-bottom:0}
+.research-reading-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:6vw}
+.research-contents{position:sticky;top:calc(var(--group-header-height, 0px) + 16px);align-self:start;padding:42px 0;min-width:0;max-height:calc(100dvh - var(--group-header-height, 0px) - 32px);overflow-y:auto}
+.research-contents>p{font-size:.75rem;letter-spacing:.1em;color:var(--ds-accent);margin-bottom:22px}
+.research-contents>a{display:flex;gap:14px;border-top:1px solid var(--ds-line);padding:17px 0;font-size:.875rem;line-height:1.8}
+.research-contents>a>span:first-child{font-family:Georgia,serif;color:var(--ds-accent)}
+.research-contents>a:hover{color:var(--ds-accent);text-decoration:underline;text-underline-offset:4px}
+.research-contents .research-contents-contact{margin-top:22px;color:var(--ds-muted);justify-content:space-between}
+.research-articles{min-width:0;max-width:760px;justify-self:end}
+.research-article{padding:62px 0;border-bottom:1px solid var(--ds-line);scroll-margin-top:32px}
+.research-article h2{font:500 clamp(1.4rem,2.5vw,2rem)/1.65 "Yu Mincho",serif;overflow-wrap:anywhere;margin:0 0 20px}
+.research-article>p,.research-subsection>p,.research-detail-collaboration>p:not(.research-eyebrow){font-size:1rem;color:#b8bcb7;line-height:2.1;margin-bottom:22px}
+.research-article .research-article-copy{font-family:"Yu Mincho",serif;font-size:1.2rem;color:var(--ds-accent);margin-bottom:32px;line-height:1.9}
+.research-subsection h3{font-size:1.125rem;font-weight:500;border-left:2px solid var(--ds-accent);padding-left:16px;margin:35px 0 18px}
+.research-subsection>p:last-child{margin-bottom:0}
+.research-article.research-other>h2{font-size:1.35rem}
+.research-other-item{scroll-margin-top:32px}
+.research-other-item+.research-other-item{margin-top:40px;padding-top:8px;border-top:1px solid var(--ds-line)}
+.research-paper{margin-top:34px;border:1px solid var(--ds-line);padding:24px;background:#191d1b}
+.research-paper .research-eyebrow{margin-bottom:14px}
+.research-paper>a{font:1.125rem/1.7 Georgia,serif;text-decoration:underline;text-decoration-color:#71776d;text-underline-offset:5px;display:block;overflow-wrap:anywhere}
+.research-paper>a:hover{color:var(--ds-accent)}
+.research-paper>p:not(.research-eyebrow){font-size:.875rem;color:var(--ds-muted);margin:18px 0 3px}
+.research-paper>span{font-size:.75rem;color:var(--ds-muted);overflow-wrap:anywhere}
+.research-detail-collaboration{padding:60px 0;scroll-margin-top:32px}
+.research-detail-collaboration h2{font:500 clamp(1.4rem,2.3vw,1.8rem)/1.7 "Yu Mincho",serif}
+.research-return{display:flex;justify-content:space-between;align-items:center;gap:24px;border-top:1px solid var(--ds-line);padding:30px 0 50px;font-size:.875rem}
+.ds-current .ds-footer>p,.ds-current .ds-footer>div>span{font-size:.75rem}
+@media(max-width:1000px){
+  .ds-current .ds-header{align-items:start}
+  .ds-current .ds-header nav{justify-content:flex-end;gap:4px 18px;max-width:550px}
+  .research-overview-grid{gap:24px}
+  .research-reading-layout{grid-template-columns:210px minmax(0,1fr);gap:35px}
+}
+@media(max-width:800px){
+  .ds-current .folio-cover{grid-template-columns:minmax(0,1fr) 150px}
+  .research-overview-grid{grid-template-columns:1fr}
+  .research-overview-item{display:grid;grid-template-columns:160px minmax(0,1fr);gap:0 24px;padding:26px 0 8px}
+  .research-overview-item .research-topic-label{grid-row:1 / 5;align-self:start}
+  .research-overview-item h3{font-size:1.5rem}
+  .research-overview-item .research-topic-copy{min-height:0}
+  .research-topic-link{justify-self:start}
+  .research-reading-layout{display:block}
+  .research-contents{position:static;padding:28px 0 10px;max-height:none;overflow:visible}
+  .research-contents .research-contents-contact{margin-top:0}
+  .research-articles{max-width:none}
+  .research-introduction{padding:24px 0 35px}
+  .research-article{padding:40px 0}
+}
+@media(max-width:560px){
+  .ds-current .folio-cover{display:block}
+  .ds-current .folio-stage{margin:0 -20px;padding:28px 20px 90px;min-height:480px}
+  .ds-current .folio-mast>p{max-width:280px;line-height:1.8}
+  .research-overview .ds-section-head{align-items:start}
+  .research-all{margin-left:0;flex-basis:auto}
+  .research-overview-item{display:flex;padding-top:22px}
+  .research-overview-item h3{font-size:1.4rem}
+  .research-topic-label{margin-bottom:18px}
+  .research-page-main{padding:0 20px}
+  .research-introduction h1{font-size:1.8rem;letter-spacing:0}
+  .research-article h2{font-size:1.5rem}
+  .research-paper{padding:20px}
+  .research-return{align-items:start;flex-wrap:wrap}
+}

@@ -1,0 +1,72 @@
+.student-guide > div,
+.collaboration-guide > div,
+.collaboration-copy,
+.group-contact > div,
+.group-contact-address {
+  min-width: 0;
+}
+
+.collaboration-copy p {
+  color: var(--ds-muted);
+  font-size: 1rem;
+  line-height: 1.95;
+  margin-bottom: 1.25rem;
+}
+
+.student-guide .ds-join-guide {
+  align-self: start;
+}
+
+.student-guide .ds-join-guide p {
+  font-size: 1rem;
+  line-height: 1.95;
+  margin: 0 0 1.25rem;
+  color: var(--ds-muted);
+}
+
+.student-guide details[open] summary b {
+  transform: rotate(45deg);
+}
+
+.student-guide .student-visit-note {
+  font-size: .875rem;
+  line-height: 1.9;
+  margin-top: 1rem;
+}
+
+.student-email,
+.contact-email {
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
+
+.student-email {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  font-size: .875rem;
+}
+
+.group-contact h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 .8rem;
+}
+
+.group-contact .contact-email {
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
+}
+
+.group-contact p {
+  line-height: 1.95;
+}
+
+.group-contact-address {
+  max-width: 34rem;
+}
+
+@media (max-width: 800px) {
+  .group-contact-address {
+    margin-top: 1.75rem;
+  }
+}

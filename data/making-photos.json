@@ -1,0 +1,20 @@
+{
+  "cluster": [
+    {
+      "src": "/images/research-cluster.png",
+      "width": 768,
+      "height": 758,
+      "alt": "金属ラックに並ぶ、須賀が自作した研究用計算クラスターのPC群。",
+      "caption": "自作の研究用計算クラスター。管理ノードと計算ノードをラックにまとめています。"
+    }
+  ],
+  "keypad": [
+    {
+      "src": "/images/pico-rgb-keypad.jpg",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Raspberry Pi Picoを接続した、16個のキーが色とりどりに光るRGBキーパッド。",
+      "caption": "CodexPicoPanel。キーで操作し、光でタスクの状態を確かめます。"
+    }
+  ]
+}

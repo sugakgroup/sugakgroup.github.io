@@ -1,0 +1,29 @@
+.making-article { max-width: 760px; margin-left: auto; border-bottom: 0; }
+.making-specs { margin: 2rem 0; border-top: 1px solid var(--ds-line); }
+.making-specs > div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid var(--ds-line); }
+.making-specs dt { font-size: .875rem; color: var(--ds-muted); }
+.making-specs dd { margin: 0; font-size: 1rem; }
+.making-specs dd span { display: block; color: var(--ds-muted); font-size: .875rem; margin-top: .25rem; }
+.making-article .making-date { font-size: .875rem; }
+.making-description > p { font-size: 1rem; color: var(--ds-muted); line-height: 2.1; margin-bottom: 1.4rem; }
+.making-with-photos { max-width: none; }
+.making-with-photos .making-feature { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: start; gap: 3rem; }
+.making-photo { margin: 0; min-width: 0; }
+.making-photo img { display: block; width: 100%; height: auto; background: #0c100e; }
+.making-photo figcaption { margin-top: .75rem; font-size: .875rem; color: var(--ds-muted); line-height: 1.8; }
+.making-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-top: 3rem; }
+.making-keypad .making-photo { width: 100%; max-width: 440px; justify-self: center; }
+.making-keypad, .making-tools { border-top: 1px solid var(--ds-line); }
+.making-tools { max-width: none; }
+.making-tools > .making-description { max-width: 760px; }
+.making-tool-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem; margin-top: 2rem; }
+.making-tool-list article { min-width: 0; border-top: 1px solid var(--ds-line); padding-top: 1.5rem; }
+.making-tool-list h3 { font-size: 1.5rem; margin: 0 0 1rem; }
+.making-tool-list p { color: var(--ds-muted); font-size: 1rem; line-height: 2; margin-bottom: 1.5rem; }
+.making-tools .making-tool-status { font-size: .875rem; color: var(--ds-muted); line-height: 1.8; margin-top: 2rem; }
+@media (max-width: 1000px) { .making-with-photos .making-specs > div { grid-template-columns: 1fr; gap: .4rem; } }
+@media (max-width: 800px) {
+  .making-with-photos .making-feature, .making-gallery, .making-tool-list { grid-template-columns: 1fr; }
+  .making-with-photos .making-feature > .making-photo { grid-row: 1; }
+}
+@media (max-width: 600px) { .making-specs > div { grid-template-columns: 1fr; gap: .4rem; } }
