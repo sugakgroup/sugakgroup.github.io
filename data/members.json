@@ -1,5 +1,6 @@
 {
   "students": [
+    { "name": "Tu Yanming", "nameEn": "Yanming Tu", "grade": "D1", "themes": ["chemical-space"] },
     { "name": "高橋 隼人", "nameEn": "Hayato Takahashi", "grade": "M2", "themes": ["chemical-space"] },
     { "name": "藤本 真夕子", "nameEn": "Mayuko Fujimoto", "grade": "M1", "themes": ["polymer-structure"] },
     { "name": "天野 怜", "nameEn": "Rei Amano", "grade": "B4", "themes": ["organic-synthesis"] }
